@@ -1,18 +1,16 @@
-# PyTorch Deep Dive
+# PyTorch Overview
 
-## Overview
+## PyTorch的过去、现在和未来
 
-### PyTorch为何成功
-
-通常的解释是：
+PyTorch为何成功，通常的解释是：
 
 > PyTorch has gradually taken the lead, owing to its simplicity, flexibility and openness.
 
-这个可能只是一个直接的技术解释，表象之下是否还有深层的原因？很容易联想到，其他领域的技术框架也有类似的情况。这是一个很值得研究的问题，可以提升对未来出现的框架的洞察力和判断力。但这又是一个相当复杂的问题。留待以后再深入探究，这里只记录些许线索。
+这个偏技术的解释可能只是一个直接的、浅层的原因，表象之下是否还有深层的原因？这是一个很值得研究的问题，也是一个相当复杂的问题。探究这个问题，可以对PyTorch的本质、优势以及发展方向有更加深入的理解，并且可以提升对未来出现的框架的洞察力和判断力。另外，很容易联想到，其他领域的技术框架也会有类似的情况，可以参考借鉴。鉴于问题的复杂性，而且PyTorch和AI还在飞速发展中，暂且记录一些思考和线索。
 
-AI技术长期存在从学术研究、到开源社区、再到工业产品的知识/工具扩散链条。如果2012是Deep Learning的算法/计算范式转折点；2017是Transformer与现代 AI framework生态的重要转折点；2022则是AI从学术研究驱动的技术浪潮进入工业规模frontier-model竞争的显著转折点。2020年代以来，尤其foundation models/LLM时代，AI前沿研究越来越受到工业界的计算资源、数据、人才和工程能力约束，frontier AI已明显向工业界集中。为什么恰恰是PyTorch这种一开始研究友好的工具最终成为工业界的主流基础设施？一个原因是，PyTorch的发展与AI的这种发展历程是同步的，是协同演化的。
+AI技术长期存在从学术研究、到开源社区、再到工业产品的知识/工具扩散链条。如果2012是Deep Learning的算法和计算范式转折点；2017是Transformer与现代AI framework生态的重要转折点；2022则是AI从学术研究驱动的技术浪潮进入工业规模frontier model竞争的显著转折点。2020年代以来，尤其foundation models/LLM时代，AI前沿研究越来越受到工业界的计算资源、数据、人才和工程能力约束，frontier AI已明显向工业界集中。
 
-可以把PyTorch的发展压缩成四个阶段：
+为什么恰恰是PyTorch这种一开始研究友好的工具最终成为工业界的主流基础设施？一个原因是，PyTorch的发展与AI的这种发展历程是同步的，是协同演化的。可以把PyTorch的发展压缩成四个阶段：
 
 * 2016–17：Research-first
 * 2018：Research → Production，PyTorch 1.0
@@ -25,9 +23,11 @@ PyTorch博客《PyTorch: The Open Language of AI》
 
 > With the PyTorch Foundation joining the Linux Foundation in 2022, this set the stage for the next phase of growth for the project. [...]
 
+换句话说，PyTorch的历史不仅是一个软件框架竞争的故事，也是AI从算法驱动的研究活动逐渐演化为大规模系统工程的一个缩影。
+
 这也解释了为什么理解现代深度学习框架不能停留在Python API层面。今天的PyTorch已经覆盖模型与workload、自动微分、分布式执行、编译、GPU kernel以及runtime等多个层次。它越来越像是连接AI workloads与computing systems的桥梁。
 
-换句话说，PyTorch的历史不仅是一个软件框架竞争的故事，也是AI从算法驱动的研究活动逐渐演化为大规模系统工程的一个缩影。
+并且PyTorch还在飞速发展中，其vision和ecosystem在扩大、roadmap在不断更新。
 
 ## References
 
@@ -68,6 +68,3 @@ Machine Learning with PyTorch and Scikit-Learn: Develop machine learning and dee
 《DLP》
 
 Deep Learning with PyTorch, Second Edition: Training and applying deep learning and generative AI models. Luca Antiga, Eli Stevens, Howard Huang, Thomas Viehmann. 2026.
-
-
-
