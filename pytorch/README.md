@@ -29,6 +29,10 @@ PyTorch博客《PyTorch: The Open Language of AI》
 
 并且PyTorch还在飞速发展中，其vision和ecosystem在扩大、roadmap在不断更新。
 
+## PyTorch Foundation
+
+> The PyTorch Foundation is the vendor-neutral home for the open source intelligence layer developers use for training, optimizing, serving, orchestrating, and running models on any chip in any cloud for any agent. As a community-driven hub hosted by the Linux Foundation, the PyTorch Foundation supports the core PyTorch framework alongside a growing portfolio of innovative projects including vLLM, DeepSpeed, Ray, Helion, and Safetensors. Through open governance, strategic support, and a global contributor community, the PyTorch Foundation empowers developers, researchers, and enterprises to build and deploy AI at scale.
+
 ## References
 
 《PyTorch: The Open Language of AI》
